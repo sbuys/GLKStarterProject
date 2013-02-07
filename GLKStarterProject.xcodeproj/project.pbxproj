@@ -16,6 +16,10 @@
 		9E835AAB16C31D67005E628E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E835AAA16C31D67005E628E /* Default.png */; };
 		9E835AAD16C31D67005E628E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E835AAC16C31D67005E628E /* Default@2x.png */; };
 		9E835AAF16C31D67005E628E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E835AAE16C31D67005E628E /* Default-568h@2x.png */; };
+		9E835AB716C31DC2005E628E /* MainGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E835AB616C31DC2005E628E /* MainGLKViewController.m */; };
+		9E835AB916C31DF2005E628E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E835AB816C31DF2005E628E /* OpenGLES.framework */; };
+		9E835ABB16C31DF9005E628E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E835ABA16C31DF8005E628E /* QuartzCore.framework */; };
+		9E835ABD16C31E00005E628E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E835ABC16C31E00005E628E /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,11 @@
 		9E835AAA16C31D67005E628E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9E835AAC16C31D67005E628E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9E835AAE16C31D67005E628E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E835AB516C31DC2005E628E /* MainGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGLKViewController.h; sourceTree = "<group>"; };
+		9E835AB616C31DC2005E628E /* MainGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainGLKViewController.m; sourceTree = "<group>"; };
+		9E835AB816C31DF2005E628E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9E835ABA16C31DF8005E628E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9E835ABC16C31E00005E628E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E835ABD16C31E00005E628E /* GLKit.framework in Frameworks */,
+				9E835ABB16C31DF9005E628E /* QuartzCore.framework in Frameworks */,
+				9E835AB916C31DF2005E628E /* OpenGLES.framework in Frameworks */,
 				9E835A9916C31D67005E628E /* UIKit.framework in Frameworks */,
 				9E835A9B16C31D67005E628E /* Foundation.framework in Frameworks */,
 				9E835A9D16C31D67005E628E /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +63,9 @@
 		9E835A8C16C31D67005E628E = {
 			isa = PBXGroup;
 			children = (
+				9E835ABC16C31E00005E628E /* GLKit.framework */,
+				9E835ABA16C31DF8005E628E /* QuartzCore.framework */,
+				9E835AB816C31DF2005E628E /* OpenGLES.framework */,
 				9E835A9E16C31D67005E628E /* GLKStarterProject */,
 				9E835A9716C31D67005E628E /* Frameworks */,
 				9E835A9616C31D67005E628E /* Products */,
@@ -81,6 +96,8 @@
 				9E835AA716C31D67005E628E /* AppDelegate.h */,
 				9E835AA816C31D67005E628E /* AppDelegate.m */,
 				9E835A9F16C31D67005E628E /* Supporting Files */,
+				9E835AB516C31DC2005E628E /* MainGLKViewController.h */,
+				9E835AB616C31DC2005E628E /* MainGLKViewController.m */,
 			);
 			path = GLKStarterProject;
 			sourceTree = "<group>";
@@ -166,6 +183,7 @@
 			files = (
 				9E835AA516C31D67005E628E /* main.m in Sources */,
 				9E835AA916C31D67005E628E /* AppDelegate.m in Sources */,
+				9E835AB716C31DC2005E628E /* MainGLKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
